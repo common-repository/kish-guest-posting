@@ -1,0 +1,25 @@
+/*
+Kish Guest Posting Style sheet. You can edit this according to your need
+*/
+#kgp_main{display:block;min-height:30px;padding:5px;border:1px solid #CACACA;padding:10px 15px 15px 10px;}
+#kgp_main input {width:auto;}
+#kgp_main img {width:auto;border:none;float:left;}
+.kgp_author_bio {border:1px solid #CACACA;padding:5px;margin:5px 0px 10px;}
+.kgp_butts{display:block;width:100%;}
+input[type="text"],[type="password"],[type="select"],
+textarea {
+	background: #f9f9f9;
+	border: 1px solid #ccc;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	padding: 5px;
+	width:99%;
+}
+.kgp_error {
+	color : #FFFFFF;
+	font-weight: bold;
+	font-size:14px;
+	background:#CA0000;
+	padding:5px;
+}
